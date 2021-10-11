@@ -11,6 +11,8 @@ const getData = async () => {
     const data = await resp.json()
 
     console.log(data, 123)
+
+    console.log('second')
 }
 
 getData()
