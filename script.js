@@ -11,7 +11,9 @@ const getData = async () => {
     const data = await resp.json()
     
     console.log(data)
-    console.log(123)
+    // console.log(123)
+
+    console.log(1111)
 }
 
 getData()
